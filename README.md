@@ -2,11 +2,11 @@
 ## For python3
 ### **About**
 
-| about | detail |
-| ---- | ----|
-| author | timmy (WeiWen Wu) |
-| date | 2022/11/21 |
-| version | 2.0  (for python3 ) |
+| About     | Content               |
+| ----------| ----------------------|
+| author    | timmy (WeiWen Wu)     |
+| date      | 2022/11/21            |
+| version   | 2.0  (for python3 )   |
 
 ### **Package**
 * serial (pyseial)
@@ -19,8 +19,25 @@
 2. [pyseial](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
 
 ### **Function** 
+#### **setting**
+| Variable                      | Default                   |
+| ------------------------------| --------------------------|
+| serial_port_auto              | True                      |
+| serial_port_auto_get_count    | 10                        |
+| joint_angle_limit             | [360,360,360,360,360,360] |
+| standard_posture              | [240,30,30,85,165,155]    |
+| join_count                    | 6                         |
+| warning                       | False                     |
+| set_one_absolute_info         |  True                     |
+#### **AR3**
+| Function | Content |
+| ---- | ----|
+| author | timmy (WeiWen Wu) |
+| date | 2022/11/21 |
+| version | 2.0  (for python3 ) |
 
 ### **Use** 
+
 ```python
 # for python
 from pyar3 import AR3_py3
