@@ -29,12 +29,7 @@
 | join_count                    | 6                         |
 | warning                       | False                     |
 | set_one_absolute_info         |  True                     |
-#### **AR3**
-| Function | Content |
-| ---- | ----|
-| author | timmy (WeiWen Wu) |
-| date | 2022/11/21 |
-| version | 2.0  (for python3 ) |
+
 
 ### **Use** 
 
